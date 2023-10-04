@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<style>
+    #gameboard {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.float-child {
+  width: 50%;
+  float: left;
+}
+
+.float-container {
+    display: flex;
+}
+
+</style>
+<html>
+    <p style="text-align: center; font-size: 30px; font-weight: 700;">Connect 4 Game</p>
+    <hr></hr>
+
+    <div class = "float-container">
+
+    <div class=" float-child">
+        <div id = 'status' style="background-color: aqua;"></div>
+        <label for = 'player-1-status'>Player 1</label>
+        <input type="radio" id = 'player-1-status'>
+
+        <label for = 'player-2-status'>Player 2</label>
+        <input type="radio" id = 'player-2-status'>
+
+        <div id = 'view'></div>
+    </div>
+
+    <div id = "gameboard" class = "float-child">
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>  
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>  
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>  
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>  
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+    </div>
+    </div>
+
+    <div id = "control"></div>
+</html>
